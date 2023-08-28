@@ -1,1 +1,1 @@
-Everything in JavaScript happens inside an `Execution Context`
+`Everything in JavaScript happens inside an Execution Context`
