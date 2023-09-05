@@ -1,0 +1,16 @@
+console.log(Math.round(24.56));
+console.log(Math.round(24.1));
+console.log(Math.floor(4.5));
+console.log(Math.ceil(4.1));
+console.log(Math.trunc(2.4344));
+console.log(Math.sign(1312));
+console.log(Math.pow(2,3));
+console.log(Math.sqrt(125));
+console.log(Math.abs(-13));
+console.log(Math.sin(90*3.141592653589793/180));
+console.log(Math.cos(90));
+console.log(Math.PI);
+console.log(Math.max(13,133));
+console.log(Math.min(13,133));
+console.log(Math.random()*5+5);
+console.log(Math.log2(8));
