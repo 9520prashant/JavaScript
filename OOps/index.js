@@ -50,18 +50,44 @@ const obj = {
 // obj.quote();
 
 // Using Function aka Factory Function
-function infos(name, sirName, age, quote){
-    return{
-        name:name,
-        sirName:sirName,
-        age:age,
-        quote:()=>{
-            console.log(quote);
-        }
-    }
-}
+// function infos(name, sirName, age, quote){
+//     return{
+//         name:name,
+//         sirName:sirName,
+//         age:age,
+//         quote:()=>{
+//             console.log(quote);
+//         }
+//     }
+// }
 
-const PraashInfo = infos('Praash','Varma',19, "It's Never too late to start again..");
-const luckyInfo = infos('Lucky', 'Varma',17, "Never Start Again");
-console.log(PraashInfo);
-console.log(luckyInfo);
+// const PraashInfo = infos('Praash','Varma',19, "It's Never too late to start again..");
+// const luckyInfo = infos('Lucky', 'Varma',17, "Never Start Again");
+// console.log(PraashInfo);
+// console.log("Constructor of PraashInfo" + PraashInfo.constructor);
+// console.log(luckyInfo);
+
+// Using Constructor Function
+
+// function Star(name, sirName, age, quote){
+//     this.name = name;
+//     this.sirName = sirName;
+//     this.age = age;
+//     this.quote = ()=>{
+//         console.log(quote);
+//     }
+// }
+
+// const PraashInfo = new Star("Praash","Varma", 19, 'Its never too late to start again');
+// console.log(PraashInfo);
+
+// PraashInfo.mood = "coding"
+// console.log(PraashInfo);
+// console.log(PraashInfo.constructor);
+
+
+// Using Object Keyword
+
+// const object = new Object({name:"Praash"})
+// console.log(object)
+// console.log(object.constructor)
